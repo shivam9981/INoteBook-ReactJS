@@ -1,0 +1,73 @@
+.container-form{
+    width: 80em;
+    background-color:  grey;
+    margin-top: 3em;
+    height: auto;
+}
+.containet-div-1{
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+#signup{
+    margin-top: 1.5em; 
+}
+.lab-1{
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}
+.inp-1{
+    margin-top: 0.5em;
+    width: 50em;
+    height: 3em;
+    border-radius: 5em;
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+}
+.div-cont-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-1{
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    width: 15em;
+    height: 3.5em;
+    border-radius: 5em;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:1300px) {
+    .container-form{
+        width: 50em;
+    }
+    .inp-1{
+        width: 25em;
+        border-radius: 3em;
+    }
+    .btn-1{
+        width: 10em;
+        height: 3em;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .container-form{
+        width: 25em;
+    }
+    .inp-1{
+        width: 10em;
+        border-radius: 3em;
+    }
+    .btn-1{
+        width: 6em;
+        height: 3em;
+    }
+}

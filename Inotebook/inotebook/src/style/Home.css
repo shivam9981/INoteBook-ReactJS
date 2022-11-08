@@ -1,0 +1,184 @@
+.conatiner-home{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 5px solid red; */
+}
+
+.text-class{
+    margin-top: 2em;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border:  3px solid blue; */
+}
+#signup{
+    margin-top: 2em;
+}
+.text-item{
+    margin:1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.textbox{
+    width: 75em;
+    height: 3em;
+    padding: 1em;
+    border-radius: 10em;
+}
+.textbox1{
+    width: 28em;
+    height: 3em;
+    padding: 1em;
+    border-radius: 5em;
+}
+.text-item textarea{
+    width: 75em;
+    height: 15em;
+    border-radius: 2em;
+    padding: 1.8em;
+}
+.txt-btn{
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    width: 15em;
+    height: 4em;
+}
+
+#description1{
+    width: 26em;
+    height: 10em;
+    padding: 1.8em;
+    margin-left: 1.5em;
+}
+.lables{
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    font-size: 1.3em;
+}
+
+.container-home2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    width: 80%;
+    height: 80em;
+    margin-top: 3em;
+    background-color: aqua;
+    margin-bottom: 5em;
+}
+
+.note-title{
+    margin-top: 1.5em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1300px){
+    .textbox1{
+        width: 25em;
+        height: 2em;
+        padding: 1em;
+    }  
+    .text-item textarea{
+        width: 35em;
+        height: 10em;
+        padding: 1em;
+    }      
+    .txt-btn{
+        margin-top: 1.5em;
+        margin-bottom: 3em;
+        width: 10em;
+        height: 3em;
+    }
+    .textbox{
+        width: 35em;
+        height: 2em;
+        padding: 1em;
+    }  
+}
+
+
+@media only screen and (max-width: 700px){
+    .textbox1{
+        width: 15em;
+        height: 2em;
+        padding: 1em;
+    }  
+    #description1{
+        width: 15em;
+        height: 10em;
+        padding: 1em;
+        /* margin-left: 1em; */
+    }
+    .text-item textarea{
+        width: 20em;
+        height: 10em;
+        padding: 1em;
+    }      
+    .txt-btn{
+        margin-top: 1.5em;
+        margin-bottom: 3em;
+        width: 6em;
+        height: 3em;
+    }
+    .textbox{
+        width: 20em;
+        height: 2em;
+        padding: 1em;
+    }  
+}
+
+@media only screen and (max-width:700px) {
+    .text-item1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .textbox1{
+        width: 12em;
+        height: 2em;
+        padding: 1em;
+    }  
+    .text-item textarea{
+        width: 15em;
+        height: 10em;
+        padding: 1em;
+    }      
+    #description1{
+        width: 13em;
+        height: 10em;
+        padding: 1.8em;
+        margin-left: 0.5em;
+    }
+    .txt-btn{
+        margin-top: 1.5em;
+        margin-bottom: 3em;
+        width: 6em;
+        height: 3em;
+    }
+    .textbox{
+        width: 15em;
+        height: 2em;
+        padding: 1em;
+    }  
+}
+
+
+@media  only screen and (max-width:470px) {
+    #signup{
+        margin-top:2em ;
+    }
+}
